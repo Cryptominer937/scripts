@@ -52,6 +52,6 @@ echo "Used Space: $used_disk"
 echo "Available Space: $available_disk"
 if [ -f /var/run/reboot-required ]; then
 echo ""  
-echo -e "${red}reboot required${clear}"
+echo -e "${red} reboot required ${clear}"
 fi
 
