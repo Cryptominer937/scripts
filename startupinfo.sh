@@ -18,7 +18,7 @@ used_memory=$(free -h | awk '/Mem:/ {print $3}')
 total_disk=$(df -h / | awk '/\// {print $2}')
 used_disk=$(df -h / | awk '/\// {print $3}')
 available_disk=$(df -h / | awk '/\// {print $4}')
-
+clear
 # Display the information
 echo "System Information:"
 echo "-----------------"
