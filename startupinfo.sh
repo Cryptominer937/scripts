@@ -42,3 +42,8 @@ echo "--------------------------"
 echo "Total Space: $total_disk"
 echo "Used Space: $used_disk"
 echo "Available Space: $available_disk"
+if [ -f /var/run/reboot-required ]; then
+echo ""  
+echo "reboot required"
+fi
+
